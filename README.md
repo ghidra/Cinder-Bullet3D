@@ -1,7 +1,4 @@
-Working platforms support iOS, MacOSX, and Windows on the glNext branch of Cinder, found [here](https://github.com/cinder/Cinder/tree/glNext). 
-
-Warning:
-Master Branch using new glNext branch of Cinder. In other words, you won't be able to use it with Cinder 0.8.6 and below.
+Working platforms support iOS, MacOSX, and Windows on Cinder, found [here](https://github.com/cinder/Cinder/tree/35e555f1c631cc58a7f2bf3ea916ddbdf74ba477). 
 
 Samples
 =======
