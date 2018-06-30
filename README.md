@@ -1,4 +1,10 @@
-Working platforms support iOS, MacOSX, and Windows on Cinder, found [here](https://github.com/cinder/Cinder/tree/35e555f1c631cc58a7f2bf3ea916ddbdf74ba477). 
+Fork of [Ryan Bartley's](https://github.com/ryanbartley/Cinder-Bullet3D) Block.
+
+Updated to Cinder [Master](https://github.com/cinder/Cinder/tree/35e555f1c631cc58a7f2bf3ea916ddbdf74ba477).
+Updated to Visual Studio 2017
+Working platforms support Windows. Maybe iOS and OSX (Currently untested).
+Currently, CUDA classes are not included in the build on Windows, for ease of building. Plan is to include them eventually. 
+
 
 Samples
 =======

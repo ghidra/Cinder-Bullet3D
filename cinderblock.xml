@@ -52,50 +52,7 @@
 	<includePath>src/</includePath>
 	<includePath>src/Cinder-Bullet3D/</includePath>
 	<includePath>src/bullet3/src/BulletPhysics/</includePath>
-	
-	<platform os="ios">
-		<platform config="Debug">
-			<staticLibrary>lib/ios/libBulletCollision_xcode4_x64_debug.a</staticLibrary>
-			<staticLibrary>lib/ios/libBulletDynamics_xcode4_x64_debug.a</staticLibrary>
-			<staticLibrary>lib/ios/libBulletSoftBody_xcode4_x64_debug.a</staticLibrary>
-			<staticLibrary>lib/ios/libLinearMath_xcode4_x64_debug.a</staticLibrary>
-		</platform>
-		<platform config="Release">
-			<staticLibrary>lib/ios/libBulletCollision_xcode4_x64_release.a</staticLibrary>
-			<staticLibrary>lib/ios/libBulletDynamics_xcode4_x64_release.a</staticLibrary>
-			<staticLibrary>lib/ios/libBulletSoftBody_xcode4_x64_release.a</staticLibrary>
-			<staticLibrary>lib/ios/libLinearMath_xcode4_x64_release.a</staticLibrary>
-		</platform>
-	</platform>
-	<platform os="macosx">
-		<platform config="Debug">
-			<staticLibrary>lib/macosx/libBulletCollision_x64_debug.a</staticLibrary>
-			<staticLibrary>lib/macosx/libBulletDynamics_x64_debug.a</staticLibrary>
-			<staticLibrary>lib/macosx/libBulletSoftBody_x64_debug.a</staticLibrary>
-			<staticLibrary>lib/macosx/libLinearMath_x64_debug.a</staticLibrary>
-		</platform>
-		<platform config="Release">
-			<staticLibrary>lib/macosx/libBulletCollision_x64_release.a</staticLibrary>
-			<staticLibrary>lib/macosx/libBulletDynamics_x64_release.a</staticLibrary>
-			<staticLibrary>lib/macosx/libBulletSoftBody_x64_release.a</staticLibrary>
-			<staticLibrary>lib/macosx/libLinearMath_x64_release.a</staticLibrary>
-		</platform>
-	</platform>
-	<platform os="msw">
 
-		<platform config="Debug">
-			<staticLibrary>lib/msw/x64/BulletCollision_vs2010_x64_debug.lib</staticLibrary>
-			<staticLibrary>lib/msw/x64/BulletDynamics_vs2010_x64_debug.lib</staticLibrary>
-			<staticLibrary>lib/msw/x64/BulletSoftBody_vs2010_x64_debug.lib</staticLibrary>
-			<staticLibrary>lib/msw/x64/LinearMath_vs2010_x64_debug.lib</staticLibrary>
-		</platform>
-		<platform config="Release">
-			<staticLibrary>lib/msw/x64/BulletCollision_vs2010_x64_release.lib</staticLibrary>
-			<staticLibrary>lib/msw/x64/BulletDynamics_vs2010_x64_release.lib</staticLibrary>
-			<staticLibrary>lib/msw/x64/BulletSoftBody_vs2010_x64_release.lib</staticLibrary>
-			<staticLibrary>lib/msw/x64/LinearMath_vs2010_x64_release.lib</staticLibrary>
-		</platform>
-	</platform>	
 </block>
 
 </cinder>
