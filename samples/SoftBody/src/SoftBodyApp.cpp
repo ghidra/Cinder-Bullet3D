@@ -110,7 +110,7 @@ void SoftBodyApp::setup()
 	
 	mPhyPlane = bt::RigidBody::create( bt::RigidBody::Format().collisionShape( bt::createBoxShape( vec3( 1, 1, 1 ) ) ).initialPosition( vec3( 0, 0, 0 ) ).initialScale( vec3( 20, 1, 20 ) ).addToWorld( true ) );
 	
-	mContext->addRigidBody( mPhyPlane );
+	//mContext->addRigidBody( mPhyPlane );
 	
 	mSoftBodyMesh = bt::drawableHelpers::getDrawableSoftBody( mSb );
 	
