@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <cinder>
 <block
-	name="Bullet 3D Physics"
+	name="Cinder-Bullet3D"
 	id="org.libcinder.bullet"
 	author="Ryan Bartley, "
 	version="3.0"
@@ -11,47 +11,47 @@
 	<supports os="macosx" />
 	<supports os="msw" />
 	
-	<headerPattern>src/bullet3/src/BulletPhysics/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletCollision/BroadPhaseCollision/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletCollision/CollisionDispatch/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletCollision/CollisionShapes/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletCollision/GImpact/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletCollision/NarrowPhaseCollision/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/Character/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/ConstraintSolver/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/Dynamics/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/FeatherStone/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/MLCPSolvers/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/Vehicle/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletSoftBody/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletLinearMath/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/vectormath/neon/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/vectormath/scalar/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/vectormath/sse/*.h</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/vectormath/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletCollision/BroadPhaseCollision/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletCollision/CollisionDispatch/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletCollision/CollisionShapes/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletCollision/GImpact/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletCollision/NarrowPhaseCollision/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/Character/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/ConstraintSolver/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/Dynamics/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/FeatherStone/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/MLCPSolvers/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/Vehicle/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletSoftBody/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/BulletLinearMath/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/vectormath/neon/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/vectormath/scalar/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/vectormath/sse/*.h</headerPattern>
+	<headerPattern>src/bullet3/src/vectormath/*.h</headerPattern>
 	<headerPattern>src/Cinder-Bullet3D/*.h</headerPattern>
 	
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletCollision/BroadPhaseCollision/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletCollision/CollisionDispatch/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletCollision/CollisionShapes/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletCollision/GImpact/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletCollision/NarrowPhaseCollision/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/Character/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/ConstraintSolver/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/Dynamics/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/FeatherStone/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/MLCPSolvers/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletDynamics/Vehicle/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletSoftBody/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/BulletLinearMath/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/vectormath/neon/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/vectormath/scalar/*.cpp</headerPattern>
-	<headerPattern>src/bullet3/src/BulletPhysics/vectormath/sse/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletCollision/BroadPhaseCollision/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletCollision/CollisionDispatch/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletCollision/CollisionShapes/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletCollision/GImpact/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletCollision/NarrowPhaseCollision/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/Character/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/ConstraintSolver/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/Dynamics/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/FeatherStone/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/MLCPSolvers/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletDynamics/Vehicle/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletSoftBody/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/BulletLinearMath/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/vectormath/neon/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/vectormath/scalar/*.cpp</headerPattern>
+	<headerPattern>src/bullet3/src/vectormath/sse/*.cpp</headerPattern>
 	<sourcePattern>src/Cinder-Bullet3D/*.cpp</sourcePattern>
 
 	<includePath>src/</includePath>
 	<includePath>src/Cinder-Bullet3D/</includePath>
-	<includePath>src/bullet3/src/BulletPhysics/</includePath>
+	<includePath>src/bullet3/src/</includePath>
 
 </block>
 
