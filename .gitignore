@@ -25,6 +25,7 @@ lib/msw/*/cinder*.pdb
 Debug/
 Release/
 ipch/
+*.vs
 
 # Linux 
 **/cmake/CMakeCache.txt
