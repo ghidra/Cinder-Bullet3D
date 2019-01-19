@@ -245,6 +245,12 @@ public:
 	{
 		mRigidBody->applyCentralImpulse( toBullet( centralImpulse ) );
 	}
+	//! Applies force to the contained rigid body
+	inline void applyForce(const ci::vec3 &force, const ci::vec3 &rel_pos)
+	{
+		mRigidBody->applyForce(toBullet(force),toBullet(rel_pos));
+	}
+
 	
 	//! Sets the linear velocity for the contained rigid body
 	inline void setLinearVelocity( const ci::vec3 &linearVelocity )
