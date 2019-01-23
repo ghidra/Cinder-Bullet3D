@@ -269,11 +269,21 @@ public:
 	{
 		return fromBullet( mRigidBody->getLinearVelocity() );
 	}
+
+	//! Returns the current Linear Velocity of the contained Rigid Body
+	inline float getLinearDamping()
+	{
+		return mRigidBody->getLinearDamping() ;
+	}
 	
 	//! Returns the current Angular Velocity of the contained Rigid Body
 	inline ci::vec3 getAngularVelocity()
 	{
 		return fromBullet( mRigidBody->getAngularVelocity() );
+	}
+	inline float getAngularDamping()
+	{
+		return mRigidBody->getAngularDamping() ;
 	}
 	
 	//! Sets the Rigid Body User Pointer.
